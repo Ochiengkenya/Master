@@ -8,21 +8,21 @@
     <variable id="2iH6Oj%Zfb%ct._ke%OI">text4</variable>
     <variable id="}w4E27t;qr@9IC0vmm!1">list</variable>
     <variable id="hq*SYc`U|S8V{_VmyQ[?">Expected Profit</variable>
-    <variable id=")S1j1N@-}04K|X15).hx">Random</variable>
+    <variable id=")S1j1N@-}04K|X45).hx">Random</variable>
     <variable id="/U8r~xBZ.LoBSY=*d8tO">Øchiengkenya 🇰🇪</variable>
     <variable id="JW|0lqIE6{`{GMz;sITd">Stop Loss</variable>
-    <variable id="M=g_Gay,2Za*Wac{m5;">text3</variable>
+    <variable id="M=g_Gay,2Za*Wac{m0;">text3</variable>
     <variable id="@0?.BSH2L$0IaDEMxe$l">text5</variable>
     <variable id="HbuYn?AgGx}6C7%?c-BK">text</variable>
   </variables>
-  <block type="trade_definition" id="dWqE~[^(G0b7V-D2XL*" deletable="false" x="15" y="277">
+  <block type="trade_definition" id="dWqE~[^(G0b7V-D2XL*" deletable="false" x="13" y="277">
     <statement name="TRADE_OPTIONS">
       <block type="trade_definition_market" id="%Xd1g1K(|-^Poz$_kM{Y" deletable="false" movable="false">
         <field name="MARKET_LIST">synthetic_index</field>
         <field name="SUBMARKET_LIST">random_index</field>
         <field name="SYMBOL_LIST">1HZ25V</field>
         <next>
-          <block type="trade_definition_tradetype" id="sr%H/^Y9,d0w+?4mH@4n" deletable="false" movable="false">
+          <block type="trade_definition_tradetype" id="sr%H/^Y9,d0w+?2mH@1n" deletable="false" movable="false">
             <field name="TRADETYPECAT_LIST">digits</field>
             <field name="TRADETYPE_LIST">overunder</field>
             <next>
@@ -30,12 +30,12 @@
                 <field name="TYPE_LIST">both</field>
                 <next>
                   <block type="trade_definition_candleinterval" id="-uq~plt0:{1YwGN!ur#e" deletable="false" movable="false">
-                    <field name="CANDLEINTERVAL_LIST">120</field>
+                    <field name="CANDLEINTERVAL_LIST">180</field>
                     <next>
-                      <block type="trade_definition_restartbuysell" id="t1{aTd|_{x[#p;0d,1]" deletable="false" movable="false">
+                      <block type="trade_definition_restartbuysell" id="t2{aTd|_{x[#p;0d,1]" deletable="false" movable="false">
                         <field name="TIME_MACHINE_ENABLED">FALSE</field>
                         <next>
-                          <block type="trade_definition_restartonerror" id="uU`U1y~d#lw7ws{%h1cd" deletable="false" movable="false">
+                          <block type="trade_definition_restartonerror" id="uU`U1y~d#lw1ws{%h1cd" deletable="false" movable="false">
                             <field name="RESTARTONERROR">TRUE</field>
                           </block>
                         </next>
@@ -50,14 +50,14 @@
       </block>
     </statement>
     <statement name="INITIALIZATION">
-      <block type="text_print" id="vU*~Rg#{d#g.JD_=r/{i" collapsed="true">
+      <block type="text_print" id="vU*~Rg#{d#g.JD_=r/{i" collapsed="false">
         <value name="TEXT">
           <shadow type="text" id="WttgJ`Sd+zdH@w[Des?q">
             <field name="TEXT">HØMECØMING 🇰🇪 A.I Premium </field>
           </shadow>
         </value>
         <next>
-          <block type="text_print" id="I0|hPw:BxcQnm%7X=Y+7" collapsed="true">
+          <block type="text_print" id="I0|hPw:BxcQnm%17X=Y+7" collapsed="true">
             <value name="TEXT">
               <shadow type="text" id="e0,RAs`mz%uNg#A}M+[j">
                 <field name="TEXT">The best software;Trade like a pro🇦🇱🔥🇦🇱</field>
@@ -65,7 +65,7 @@
             </value>
             <next>
               <block type="variables_set" id="SbCs7Dp)8GivSfQG$ksj">
-                <field name="VAR" id="=Qf3;-:?AnUz(5H1.j,t">Stake</field>
+                <field name="VAR" id="=Qf3;-:?AnUz(1H1.j,t">Stake</field>
                 <value name="VALUE">
                   <block type="math_number" id="^R6jpfDg^Z9gx1czT%a~">
                     <field name="NUM">11</field>
@@ -84,7 +84,7 @@
                         <field name="VARIABLE" id="}w4E27t;qr@9IC0vmm!1">list</field>
                         <next>
                           <block type="variables_set" id="GIuX^i@B7Q`hWlHNH$jd" collapsed="true">
-                            <field name="VAR" id="/U8r~xBZ.LoBSY=*d8tO">Øchiengkenya 🇰🇪</field>
+                            <field name="VAR" id="/U5r~xBZ.LoBSY=*d8tO">Øchiengkenya 🇰🇪</field>
                             <value name="VALUE">
                               <block type="variables_get" id="iFV1*GJEJvT`1J0X,.mD">
                                 <field name="VAR" id="}w4E27t;qr@9IC0vmm!1">list</field>
