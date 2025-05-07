@@ -8,7 +8,7 @@
     <variable id="2iH6Oj%Zfb%ct._ke%OI">text4</variable>
     <variable id="}w4E27t;qr@9IC0vmm!1">list</variable>
     <variable id="hq*SYc`U|S8V{_VmyQ[?">Expected Profit</variable>
-    <variable id=")S1j1N@-}04K|X45).hx">Random</variable>
+    <variable id=")S1j1N@-}04K|X2).hx">Random</variable>
     <variable id="/U8r~xBZ.LoBSY=*d8tO">Øchiengkenya 🇰🇪</variable>
     <variable id="JW|0lqIE6{`{GMz;sITd">Stop Loss</variable>
     <variable id="M=g_Gay,2Za*Wac{m0;">text3</variable>
@@ -29,11 +29,11 @@
               <block type="trade_definition_contracttype" id="1%$W1Jp1E1AWvFrS)r1" deletable="false" movable="false">
                 <field name="TYPE_LIST">both</field>
                 <next>
-                  <block type="trade_definition_candleinterval" id="-uq~plt0:{1YwGN!ur#e" deletable="false" movable="false">
+                  <block type="trade_definition_candleinterval" id="-uq~plt1:{1YwGN!ur#e" deletable="false" movable="false">
                     <field name="CANDLEINTERVAL_LIST">180</field>
                     <next>
                       <block type="trade_definition_restartbuysell" id="t2{aTd|_{x[#p;0d,1]" deletable="false" movable="false">
-                        <field name="TIME_MACHINE_ENABLED">FALSE</field>
+                        <field name="TIME_SECONDS_MACHINE_ENABLED">FALSE</field>
                         <next>
                           <block type="trade_definition_restartonerror" id="uU`U1y~d#lw1ws{%h1cd" deletable="false" movable="false">
                             <field name="RESTARTONERROR">TRUE</field>
