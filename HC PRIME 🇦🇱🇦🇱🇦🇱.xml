@@ -20,7 +20,7 @@
       <block type="trade_definition_market" id="%Xd1g1K(|-^Poz$_kM{Y" deletable="false" movable="false">
         <field name="MARKET_LIST">synthetic_index</field>
         <field name="SUBMARKET_LIST">random_index</field>
-        <field name="SYMBOL_LIST">1HZ25V</field>
+        <field name="SYMBOL_LIST">1HZ75V</field>
         <next>
           <block type="trade_definition_tradetype" id="sr%H/^Y9,d0w+?2mH@1n" deletable="false" movable="false">
             <field name="TRADETYPECAT_LIST">digits</field>
@@ -32,10 +32,10 @@
                   <block type="trade_definition_candleinterval" id="-uq~plt1:{1YwGN!ur#e" deletable="false" movable="false">
                     <field name="CANDLEINTERVAL_LIST">180</field>
                     <next>
-                      <block type="trade_definition_restartbuysell" id="t2{aTd|_{x[#p;0d,1]" deletable="false" movable="false">
-                        <field name="TIME_SECONDS_MACHINE_ENABLED">FALSE</field>
+                      <block type="trade_definition_restartbuysell_seconds" id="t2{aTd|_{x[#p;0d,1]" deletable="false" movable="false">
+                        <field name="TIME_0SECONDS_MACHINE_ENABLED">FALSE</field>
                         <next>
-                          <block type="trade_definition_restartonerror" id="uU`U1y~d#lw1ws{%h1cd" deletable="false" movable="false">
+                          <block type="trade_definition_restartonenabled" id="uU`U1y~d#lw1ws{%h1cd" deletable="false" movable="false">
                             <field name="RESTARTONERROR">TRUE</field>
                           </block>
                         </next>
@@ -49,7 +49,7 @@
         </next>
       </block>
     </statement>
-    <statement name="INITIALIZATION">
+    <statement name="INITIALIZATION_SECONDS">
       <block type="text_print" id="vU*~Rg#{d#g.JD_=r/{i" collapsed="false">
         <value name="TEXT">
           <shadow type="text" id="WttgJ`Sd+zdH@w[Des?q">
@@ -57,7 +57,7 @@
           </shadow>
         </value>
         <next>
-          <block type="text_print" id="I0|hPw:BxcQnm%17X=Y+7" collapsed="true">
+          <block type="text_print_seconds" id="I0|hPw:BxcQnm%17X=Y+7" collapsed="true">
             <value name="TEXT">
               <shadow type="text" id="e0,RAs`mz%uNg#A}M+[j">
                 <field name="TEXT">The best software;Trade like a pro🇦🇱🔥🇦🇱</field>
