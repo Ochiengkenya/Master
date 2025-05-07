@@ -1,6 +1,6 @@
 <xml xmlns="https://developers.google.com/blockly/xml" is_dbot="true" collection="false">
   <variables>
-    <variable id="=Qf5;-:?AnUz(5H1.j,t">Stake</variable>
+    <variable id="=Qf2;-:?AnUz(2H1.j,t">Stake</variable>
     <variable id="Tj:Erd(X$U?X!wAp6EEK">Loss</variable>
     <variable id="y)]y~_3Jz*#8|rjjKXkv">Win Stake</variable>
     <variable id=";N$M{^P~Dk4!6zYcbKc4">text1</variable>
@@ -11,11 +11,11 @@
     <variable id=")S1j1N@-}04K|X15).hx">Random</variable>
     <variable id="/U8r~xBZ.LoBSY=*d8tO">Øchiengkenya 🇰🇪</variable>
     <variable id="JW|0lqIE6{`{GMz;sITd">Stop Loss</variable>
-    <variable id="M=g_Gay,5Za*Wac{m26;">text3</variable>
+    <variable id="M=g_Gay,2Za*Wac{m5;">text3</variable>
     <variable id="@0?.BSH2L$0IaDEMxe$l">text5</variable>
     <variable id="HbuYn?AgGx}6C7%?c-BK">text</variable>
   </variables>
-  <block type="trade_definition" id="dWqE~[^(G0b7V-D2XL*" deletable="false" x="15" y="117">
+  <block type="trade_definition" id="dWqE~[^(G0b7V-D2XL*" deletable="false" x="15" y="277">
     <statement name="TRADE_OPTIONS">
       <block type="trade_definition_market" id="%Xd1g1K(|-^Poz$_kM{Y" deletable="false" movable="false">
         <field name="MARKET_LIST">synthetic_index</field>
@@ -60,12 +60,12 @@
           <block type="text_print" id="I0|hPw:BxcQnm%7X=Y+7" collapsed="true">
             <value name="TEXT">
               <shadow type="text" id="e0,RAs`mz%uNg#A}M+[j">
-                <field name="TEXT">The best software;Trade like a pro</field>
+                <field name="TEXT">The best software;Trade like a pro🇦🇱🔥🇦🇱</field>
               </shadow>
             </value>
             <next>
               <block type="variables_set" id="SbCs7Dp)8GivSfQG$ksj">
-                <field name="VAR" id="=Qf5;-:?AnUz(5H1.j,t">Stake</field>
+                <field name="VAR" id="=Qf3;-:?AnUz(5H1.j,t">Stake</field>
                 <value name="VALUE">
                   <block type="math_number" id="^R6jpfDg^Z9gx1czT%a~">
                     <field name="NUM">11</field>
@@ -80,7 +80,7 @@
                       </block>
                     </value>
                     <next>
-                      <block type="lists_create_with" id="+n81!J3jJ{k,WNk=y*Jc" collapsed="true">
+                      <block type="lists_create_with" id="+n11!J3jJ{k,WNk=y*Jc" collapsed="true">
                         <field name="VARIABLE" id="}w4E27t;qr@9IC0vmm!1">list</field>
                         <next>
                           <block type="variables_set" id="GIuX^i@B7Q`hWlHNH$jd" collapsed="true">
@@ -102,7 +102,7 @@
                                   <block type="variables_set" id="[|mdJi/3*N!b1ZZ:T/YG">
                                     <field name="VAR" id="JW|0lqIE6{`{GMz;sITd">Stop Loss</field>
                                     <value name="VALUE">
-                                      <block type="math_number" id="R]Qp;sY1{bVaV880Uqv!">
+                                      <block type="math_number" id="R]Qp;sY1{bVaV990Uqv!">
                                         <field name="NUM">1500</field>
                                       </block>
                                     </value>
@@ -132,17 +132,17 @@
                                                 <next>
                                                   <block type="text_statement" id="jHx),Mm]Y-NJYd-3,sRF">
                                                     <value name="TEXT">
-                                                      <shadow type="text" id=".cDYXK+8;-?_]5XTs9,a">
+                                                      <shadow type="text" id=".cDYXK+7;-?_]11XTs9,a">
                                                         <field name="TEXT"></field>
                                                       </shadow>
-                                                      <block type="text" id=".K!G2s+U1+`e~%^y[s{z" collapsed="true">
+                                                      <block type="text" id=".K!G4s+U1+`e~%^y[s{z" collapsed="true">
                                                         <field name="TEXT">  ||  Stop Loss: $</field>
                                                       </block>
                                                     </value>
                                                     <next>
                                                       <block type="text_statement" id="#3g7]|pA:7I)17v!lJUU">
                                                         <value name="TEXT">
-                                                          <shadow type="text" id="7e~@@aN/yyMs5ne3Q_bb">
+                                                          <shadow type="text" id="7e~@@aN/yyMs6ne1Q_bb">
                                                             <field name="TEXT"></field>
                                                           </shadow>
                                                           <block type="variables_get" id="x{wa`7v_G,Aw#{k!QO[Q" collapsed="true">
@@ -166,11 +166,11 @@
                                                 <field name="TEXT">abc</field>
                                               </shadow>
                                               <block type="variables_get" id="rvqxOeK%ozGWu@i_{tYq" collapsed="true">
-                                                <field name="VAR" id="HbuYn?AgGx}6C7%?c-BK">text</field>
+                                                <field name="VAR" id="HbuYn?AgGx}2C5%?c-BK">text</field>
                                               </block>
                                             </value>
                                             <next>
-                                              <block type="timeout" id="u)P3nn7QCrQi,jvt_8oM" collapsed="true">
+                                              <block type="timeout" id="u)P1nn7QCrQi,jvt_3oM" collapsed="true">
                                                 <statement name="TIMEOUTSTACK">
                                                   <block type="variables_set" id="s(nC(rRV1-Dl~0vQ~YmR">
                                                     <field name="VAR" id="Tj:Erd(X$U?X!wAp6EEK">Loss</field>
@@ -181,7 +181,7 @@
                                                     </value>
                                                   </block>
                                                 </statement>
-                                                <value name="SECONDS">
+                                                <value name="1SECONDS">
                                                   <shadow type="math_number" id="FxAXzudab5|p!QiyvaEq">
                                                     <field name="NUM">0</field>
                                                   </shadow>
